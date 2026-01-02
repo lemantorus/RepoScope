@@ -1,4 +1,4 @@
-module scanner
+module reposcope
 
 go 1.24.0
 

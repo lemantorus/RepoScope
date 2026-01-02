@@ -1,4 +1,4 @@
-# Launcer Go - Terminal Project Launcher
+# RepoScope - Terminal Project Launcher
 
 A sleek, terminal-based project launcher that helps you quickly find and open your projects with an intuitive interface. Built with Go and the Bubble Tea framework, it provides a beautiful TUI (Terminal User Interface) for navigating through your projects.
 
@@ -30,8 +30,8 @@ A sleek, terminal-based project launcher that helps you quickly find and open yo
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/launcer_go.git
-cd launcer_go
+git clone https://github.com/lemantorus/RepoScope.git
+cd RepoScope
 
 # Install dependencies
 go mod tidy
@@ -52,10 +52,10 @@ If no path is provided, it will scan the current working directory.
 
 ```bash
 # Scan current directory
-launcer_go
+reposcope
 
 # Scan specific directory
-launcer_go /path/to/directory
+reposcope /path/to/directory
 ```
 
 ## Supported Project Types
@@ -81,7 +81,7 @@ The launcher provides smart Git status detection:
 ## Project Structure
 
 ```
-launcer_go/
+RepoScope/
 ├── main.go          # Main application logic
 ├── go.mod           # Go module definition
 ├── go.sum           # Go module checksums
